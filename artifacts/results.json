@@ -1,0 +1,1459 @@
+{
+  "data_source": "synthetic demonstration",
+  "sample_count": 240,
+  "label": "remaining_days < 7",
+  "threshold": 0.5,
+  "evaluation": "pooled out-of-fold metrics from outer 10-fold stratified CV; inner 3-fold stacking",
+  "limitations": "Random CV assumes independent rows. Not valid evidence for repeated equipment or temporal generalization.",
+  "metrics": {
+    "accuracy": 0.8833333333333333,
+    "auc": 0.944873949579832,
+    "recall": 0.7,
+    "precision": 0.875,
+    "f1": 0.7777777777777778,
+    "kappa": 0.7,
+    "mcc": 0.7080104323938431
+  },
+  "devices": [
+    {
+      "record_id": "DEMO-0000",
+      "risk_probability": 0.2800947027913092,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0001",
+      "risk_probability": 0.07458850001090123,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0002",
+      "risk_probability": 0.8297232074687129,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0003",
+      "risk_probability": 0.1969269041112354,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0004",
+      "risk_probability": 0.038790091328910196,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0005",
+      "risk_probability": 0.044355111956409406,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0006",
+      "risk_probability": 0.050992590142032966,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0007",
+      "risk_probability": 0.2849067477352951,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0008",
+      "risk_probability": 0.2861176583228288,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0009",
+      "risk_probability": 0.45179237552408746,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0010",
+      "risk_probability": 0.5143240051782058,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0011",
+      "risk_probability": 0.9522832103161488,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0012",
+      "risk_probability": 0.08851436749616855,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0013",
+      "risk_probability": 0.040855511346937434,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0014",
+      "risk_probability": 0.07900475931996007,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0015",
+      "risk_probability": 0.14168835324710446,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0016",
+      "risk_probability": 0.8980063435782808,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0017",
+      "risk_probability": 0.13533725870556196,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0018",
+      "risk_probability": 0.12807633199892665,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0019",
+      "risk_probability": 0.05331582929502652,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0020",
+      "risk_probability": 0.08544255991234778,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0021",
+      "risk_probability": 0.23823440865041046,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0022",
+      "risk_probability": 0.7895681017661651,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0023",
+      "risk_probability": 0.043966285730009574,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0024",
+      "risk_probability": 0.0460561131055547,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0025",
+      "risk_probability": 0.047680129275349196,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0026",
+      "risk_probability": 0.15977668190032215,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0027",
+      "risk_probability": 0.10221486423308619,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0028",
+      "risk_probability": 0.5489147222160164,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0029",
+      "risk_probability": 0.29978864210915573,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0030",
+      "risk_probability": 0.9615681256280386,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0031",
+      "risk_probability": 0.6459569106750154,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0032",
+      "risk_probability": 0.9270829037877938,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0033",
+      "risk_probability": 0.15741390156219026,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0034",
+      "risk_probability": 0.8137727173554763,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0035",
+      "risk_probability": 0.17180160306564113,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0036",
+      "risk_probability": 0.40553027851186313,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0037",
+      "risk_probability": 0.04433592802201891,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0038",
+      "risk_probability": 0.09897540204554062,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0039",
+      "risk_probability": 0.10517415329032892,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0040",
+      "risk_probability": 0.919396912267851,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0041",
+      "risk_probability": 0.053349175950089305,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0042",
+      "risk_probability": 0.03777218555887558,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0043",
+      "risk_probability": 0.0394695562116891,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0044",
+      "risk_probability": 0.22339269854605623,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0045",
+      "risk_probability": 0.7663062282768067,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0046",
+      "risk_probability": 0.07241084769866983,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0047",
+      "risk_probability": 0.1587790505525329,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0048",
+      "risk_probability": 0.8017923736698631,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0049",
+      "risk_probability": 0.23186421541902172,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0050",
+      "risk_probability": 0.048009714103118224,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0051",
+      "risk_probability": 0.06385409004950818,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0052",
+      "risk_probability": 0.04838647523762669,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0053",
+      "risk_probability": 0.050475494498160196,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0054",
+      "risk_probability": 0.0639714005767872,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0055",
+      "risk_probability": 0.9331336932456709,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0056",
+      "risk_probability": 0.609569579998458,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0057",
+      "risk_probability": 0.4690056548315555,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0058",
+      "risk_probability": 0.8414592630203729,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0059",
+      "risk_probability": 0.061539410951596825,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0060",
+      "risk_probability": 0.04824568342083244,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0061",
+      "risk_probability": 0.49168950034760633,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0062",
+      "risk_probability": 0.6093091490225244,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0063",
+      "risk_probability": 0.37957526031520983,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0064",
+      "risk_probability": 0.127417992277871,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0065",
+      "risk_probability": 0.03963691419841522,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0066",
+      "risk_probability": 0.06256876413017425,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0067",
+      "risk_probability": 0.3837691476437335,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0068",
+      "risk_probability": 0.5476431169028229,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0069",
+      "risk_probability": 0.04869844924368943,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0070",
+      "risk_probability": 0.9049587921190786,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0071",
+      "risk_probability": 0.08932968118792518,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0072",
+      "risk_probability": 0.8857580419066423,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0073",
+      "risk_probability": 0.4768762124172572,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0074",
+      "risk_probability": 0.9322627999348763,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0075",
+      "risk_probability": 0.13147439518590123,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0076",
+      "risk_probability": 0.8203514629429682,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0077",
+      "risk_probability": 0.8974186226050066,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0078",
+      "risk_probability": 0.060146635476405426,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0079",
+      "risk_probability": 0.05416176396909942,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0080",
+      "risk_probability": 0.1313871920636549,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0081",
+      "risk_probability": 0.046249171118274875,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0082",
+      "risk_probability": 0.7110594830158461,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0083",
+      "risk_probability": 0.07161980695671952,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0084",
+      "risk_probability": 0.21061787198041051,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0085",
+      "risk_probability": 0.17064232225992182,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0086",
+      "risk_probability": 0.13141213175160008,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0087",
+      "risk_probability": 0.04571077487301389,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0088",
+      "risk_probability": 0.42193856556245135,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0089",
+      "risk_probability": 0.06222353485727776,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0090",
+      "risk_probability": 0.22204579472660213,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0091",
+      "risk_probability": 0.03891894861487923,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0092",
+      "risk_probability": 0.21434843713947102,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0093",
+      "risk_probability": 0.1739020515165802,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0094",
+      "risk_probability": 0.8942380916030261,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0095",
+      "risk_probability": 0.06965393692889287,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0096",
+      "risk_probability": 0.05966192513083653,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0097",
+      "risk_probability": 0.063522627982403,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0098",
+      "risk_probability": 0.07148900043670324,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0099",
+      "risk_probability": 0.17377749164671105,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0100",
+      "risk_probability": 0.8126649110084292,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0101",
+      "risk_probability": 0.28335134513105675,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0102",
+      "risk_probability": 0.08179770149486089,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0103",
+      "risk_probability": 0.05191443775442698,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0104",
+      "risk_probability": 0.5756697999176458,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0105",
+      "risk_probability": 0.052792366288819864,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0106",
+      "risk_probability": 0.05009579635909745,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0107",
+      "risk_probability": 0.1848943854325899,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0108",
+      "risk_probability": 0.11334059306119997,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0109",
+      "risk_probability": 0.8774430454072988,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0110",
+      "risk_probability": 0.848837309804028,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0111",
+      "risk_probability": 0.04343900230577701,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0112",
+      "risk_probability": 0.2717715017476762,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0113",
+      "risk_probability": 0.929068653733298,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0114",
+      "risk_probability": 0.09964709077329709,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0115",
+      "risk_probability": 0.08463250410359534,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0116",
+      "risk_probability": 0.954927308844852,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0117",
+      "risk_probability": 0.9406311521335552,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0118",
+      "risk_probability": 0.05750236604235843,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0119",
+      "risk_probability": 0.06745905808316241,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0120",
+      "risk_probability": 0.471764837606647,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0121",
+      "risk_probability": 0.04757444964352164,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0122",
+      "risk_probability": 0.05393342062860519,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0123",
+      "risk_probability": 0.8089045451877217,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0124",
+      "risk_probability": 0.0946513434235662,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0125",
+      "risk_probability": 0.0646273556818489,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0126",
+      "risk_probability": 0.2723150297615283,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0127",
+      "risk_probability": 0.050569022789225294,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0128",
+      "risk_probability": 0.13852245638363156,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0129",
+      "risk_probability": 0.05389332667315165,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0130",
+      "risk_probability": 0.7185488140352329,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0131",
+      "risk_probability": 0.05459255695061674,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0132",
+      "risk_probability": 0.13252669732558114,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0133",
+      "risk_probability": 0.4416565958907618,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0134",
+      "risk_probability": 0.042477894245976026,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0135",
+      "risk_probability": 0.05279331282547281,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0136",
+      "risk_probability": 0.04622960873156333,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0137",
+      "risk_probability": 0.9079512248821324,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0138",
+      "risk_probability": 0.3546780105256087,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0139",
+      "risk_probability": 0.1433741908993769,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0140",
+      "risk_probability": 0.12451531464489879,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0141",
+      "risk_probability": 0.06452733406701097,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0142",
+      "risk_probability": 0.30075434305186766,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0143",
+      "risk_probability": 0.06640555332348243,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0144",
+      "risk_probability": 0.46217137245849893,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0145",
+      "risk_probability": 0.15345702589714508,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0146",
+      "risk_probability": 0.8980878165873947,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0147",
+      "risk_probability": 0.9293309085046021,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0148",
+      "risk_probability": 0.48379204342013615,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0149",
+      "risk_probability": 0.33557968548049816,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0150",
+      "risk_probability": 0.047158957152345075,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0151",
+      "risk_probability": 0.04815409443751382,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0152",
+      "risk_probability": 0.9266432875566618,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0153",
+      "risk_probability": 0.05288560608968218,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0154",
+      "risk_probability": 0.04760845218909757,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0155",
+      "risk_probability": 0.9055587188545827,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0156",
+      "risk_probability": 0.19579568384069163,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0157",
+      "risk_probability": 0.09034063514100536,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0158",
+      "risk_probability": 0.06586878040299249,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0159",
+      "risk_probability": 0.040208199666901645,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0160",
+      "risk_probability": 0.8813161437122752,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0161",
+      "risk_probability": 0.24013776892212008,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0162",
+      "risk_probability": 0.2318236267071482,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0163",
+      "risk_probability": 0.15065031766812917,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0164",
+      "risk_probability": 0.047846636101563506,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0165",
+      "risk_probability": 0.5752671148201046,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0166",
+      "risk_probability": 0.13739800849378192,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0167",
+      "risk_probability": 0.9143976588463563,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0168",
+      "risk_probability": 0.06294041397022572,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0169",
+      "risk_probability": 0.11384387938750974,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0170",
+      "risk_probability": 0.10800723471607283,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0171",
+      "risk_probability": 0.10342036840189625,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0172",
+      "risk_probability": 0.051055511916302095,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0173",
+      "risk_probability": 0.2591654345539756,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0174",
+      "risk_probability": 0.9533196527649241,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0175",
+      "risk_probability": 0.03996221488311933,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0176",
+      "risk_probability": 0.15349235177541662,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0177",
+      "risk_probability": 0.03981875641244438,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0178",
+      "risk_probability": 0.06057407854526609,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0179",
+      "risk_probability": 0.20972816794646768,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0180",
+      "risk_probability": 0.07907765718429793,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0181",
+      "risk_probability": 0.04337613189678427,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0182",
+      "risk_probability": 0.041426650711465354,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0183",
+      "risk_probability": 0.6960730000621249,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0184",
+      "risk_probability": 0.06194327267196896,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0185",
+      "risk_probability": 0.05357057712194155,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0186",
+      "risk_probability": 0.5843831192833192,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0187",
+      "risk_probability": 0.3151959475233189,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0188",
+      "risk_probability": 0.13466301692139726,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0189",
+      "risk_probability": 0.6526190807240755,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0190",
+      "risk_probability": 0.29835756361554616,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0191",
+      "risk_probability": 0.04651936775179641,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0192",
+      "risk_probability": 0.06037207694559943,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0193",
+      "risk_probability": 0.04011315193549516,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0194",
+      "risk_probability": 0.8003595123071185,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0195",
+      "risk_probability": 0.1487947716983249,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0196",
+      "risk_probability": 0.04453205046902405,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0197",
+      "risk_probability": 0.07483765877676,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0198",
+      "risk_probability": 0.41918062772522985,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0199",
+      "risk_probability": 0.08552085443636938,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0200",
+      "risk_probability": 0.1669817425217419,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0201",
+      "risk_probability": 0.16946364783318954,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0202",
+      "risk_probability": 0.36152166616033454,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0203",
+      "risk_probability": 0.05270235011748996,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0204",
+      "risk_probability": 0.6688883903849292,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0205",
+      "risk_probability": 0.19583307183210177,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0206",
+      "risk_probability": 0.05035857239527647,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0207",
+      "risk_probability": 0.05617788200946494,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0208",
+      "risk_probability": 0.18141213912900625,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0209",
+      "risk_probability": 0.06449955523129845,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0210",
+      "risk_probability": 0.1045823382353645,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0211",
+      "risk_probability": 0.09040605135376527,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0212",
+      "risk_probability": 0.05380849529819587,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0213",
+      "risk_probability": 0.09396001091417071,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0214",
+      "risk_probability": 0.47454208162977074,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0215",
+      "risk_probability": 0.05269652503135841,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0216",
+      "risk_probability": 0.48058587105441003,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0217",
+      "risk_probability": 0.09452814058273566,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0218",
+      "risk_probability": 0.8520552994820233,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0219",
+      "risk_probability": 0.5363952766597916,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0220",
+      "risk_probability": 0.04820673731481295,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0221",
+      "risk_probability": 0.7096916312325294,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0222",
+      "risk_probability": 0.05311809369166641,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0223",
+      "risk_probability": 0.9543585650786767,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0224",
+      "risk_probability": 0.08178569909772092,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0225",
+      "risk_probability": 0.040440605020236026,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0226",
+      "risk_probability": 0.04525766950342092,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0227",
+      "risk_probability": 0.044488557076222346,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0228",
+      "risk_probability": 0.238559480683375,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0229",
+      "risk_probability": 0.9465163271401666,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0230",
+      "risk_probability": 0.33039943849111636,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0231",
+      "risk_probability": 0.15120106519721496,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0232",
+      "risk_probability": 0.33476967812139297,
+      "predicted_at_risk": false,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0233",
+      "risk_probability": 0.7397808809245725,
+      "predicted_at_risk": true,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0234",
+      "risk_probability": 0.6725924048045278,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0235",
+      "risk_probability": 0.04447077002990125,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0236",
+      "risk_probability": 0.049062616714814954,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0237",
+      "risk_probability": 0.04659821513965678,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    },
+    {
+      "record_id": "DEMO-0238",
+      "risk_probability": 0.6278142776243419,
+      "predicted_at_risk": true,
+      "actual_at_risk": true
+    },
+    {
+      "record_id": "DEMO-0239",
+      "risk_probability": 0.04693878833388509,
+      "predicted_at_risk": false,
+      "actual_at_risk": false
+    }
+  ]
+}

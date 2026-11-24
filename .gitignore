@@ -1,0 +1,9 @@
+.venv/
+frontend/node_modules/
+frontend/dist/
+legacy/opcua/target/
+__pycache__/
+.DS_Store
+artifacts/*.joblib
+data/private/
+config/local-mapping.json
