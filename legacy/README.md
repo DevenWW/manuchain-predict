@@ -118,6 +118,7 @@ The module was compiled against the actual Milo 0.6.5 dependencies and `mvn test
 passed. The checked-in JUnit test covers quality, numeric values, batch size,
 source timestamp preservation, missing and stale timestamps, and future clock
 skew. The local HTTP bridge contract test also passed, including explicit source
-timestamp forwarding. A local OPC UA simulator attempt was stopped while it was
-initializing its address space; end-to-end OPC UA server integration has not
-yet been verified. No real device was contacted.
+timestamp forwarding. A local asyncua simulator with 15 synthetic numeric nodes
+was tested end to end through the Milo collector, HTTP bridge and trained demo
+model, including source timestamp preservation. See the top-level README for
+the test commands. No real device was contacted.
